@@ -14,9 +14,11 @@ button {
   font-family: 'Press Start 2P', system-ui;
 }
 
-#root {
-  min-height: 100vh;
+
+
+#root{
   display: flex;
+  min-height: 90vh;
   flex-direction: column;
   padding: 14px;
   background: #8d9db6;
@@ -108,7 +110,30 @@ p {
   opacity: 0.7;
 }
 
+.footerContainer{
+  display: flex;
+  flex-direction: column;
+  background: #667292;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  min-height: 50px;
+  border-top: solid 3px black;
+}
 
+.footerContainer a{
+  text-decoration: unset;
+  cursor: pointer;
+}
+
+.footerContainer a:hover{
+  opacity: 0.7;
+}
+
+.footerText{
+  color: #f1e3dd;
+  font-size: 1em;
+}
 
 @media (min-width: 640px) {
 
