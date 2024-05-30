@@ -1,5 +1,5 @@
 * {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Anton', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -19,8 +19,8 @@ button {
   display: flex;
   flex-direction: column;
   padding: 14px;
-  background: #eff6ff;
-  gap: 14px;
+  background: #8d9db6;
+  gap: 36px;
 }
 
 header {
@@ -45,32 +45,35 @@ header input {
 
 header button {
   border-radius: 14px;
-  background: transparent;
-  transition-duration: 200ms;
+  transition-duration: 250ms;
   cursor: pointer;
+  border: solid 1px black;
 }
 
 header button:hover {
   opacity: 0.7;
-}
+  }
 
 header button,
 header input {
   padding: 14px 18px;
-  border: none;
-  outline: none;
-  background: white;
+  background: #f1e3dd;
+  border: solid 1px black;
 }
 
+
+
 p {
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 .main {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 18px;
 }
+
+
 
 .todoItem {
   display: flex;
@@ -78,11 +81,14 @@ p {
   gap: 14px;
   padding: 14px;
   border-radius: 14px;
-  background: white;
+  background: #667292;
+  border: solid 1px black;
+  color: #fff;
 }
 
 .todoItem p {
   flex: 1;
+  color: #f1e3dd;
 }
 
 .actionsContainer {
@@ -108,10 +114,10 @@ p {
 
   header button,
   header input {
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
 
   p {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 }
